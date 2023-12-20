@@ -6,7 +6,7 @@
 public class Triangle {
 	public static void main(String[] args) {
 		// Put your code here
-		gen3(109, 132435);
+		triangle(4, 5, 10);
 	}
 	public static void triangle(int a, int b, int c) {
 		String nums = String.format("%d, %d, %d: ",a,b,c);
