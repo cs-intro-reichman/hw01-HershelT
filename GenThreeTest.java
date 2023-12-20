@@ -1,6 +1,5 @@
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
-
 public class GenThreeTest {
     public static void main(String[] args) {
         String min = args[0];
