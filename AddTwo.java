@@ -3,7 +3,9 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-		addTwo(0, 100);
+		int one = Integer.parseInt(args[0]);
+		int two = Integer.parseInt(args[1]);
+		addTwo(one, two);
 	}
 	public static void addTwo(int one, int two){
 		int answer = one + two;

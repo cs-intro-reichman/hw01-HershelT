@@ -7,7 +7,10 @@
 public class LinearEq {
 	// Put your code here
     public static void main(String[] args) {
-        linearEq(4, 6, 7);
+        double a = Double.parseDouble(args[0]);
+        double b = Double.parseDouble(args[1]);
+        double c = Double.parseDouble(args[2]);
+        linearEq(a, b, c);
     }
     public static void linearEq(double a, double b, double c) {
         String equation = String.format("%f*x + %f = %f",a,b,c);

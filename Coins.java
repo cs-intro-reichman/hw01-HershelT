@@ -6,7 +6,8 @@
 public class Coins {
 	public static void main(String[] args) {
 		// Put your code here
-		coins(464);
+		int amount = Integer.parseInt(args[0]);
+		coins(amount);
 	}
 	public static void coins(int amount){
 		int quarters = amount / 25;

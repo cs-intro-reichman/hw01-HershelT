@@ -6,7 +6,10 @@
 public class Triangle {
 	public static void main(String[] args) {
 		// Put your code here
-		triangle(4, 5, 10);
+		int a = Integer.parseInt(args[0]);
+		int b = Integer.parseInt(args[1]);
+		int c = Integer.parseInt(args[2]);
+		triangle(a, b, c);
 	}
 	public static void triangle(int a, int b, int c) {
 		String nums = String.format("%d, %d, %d: ",a,b,c);

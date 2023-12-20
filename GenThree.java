@@ -7,7 +7,9 @@ import java.util.Random;
 public class GenThree {
     public static void main(String[] args) {
         // Put your code here
-        gen3(109, 132435);
+        int min = Integer.parseInt(args[0]);
+        int max = Integer.parseInt(args[1]);
+        gen3(min, max);
     }
     public static void gen3(int min, int max) {
 
