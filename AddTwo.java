@@ -3,6 +3,10 @@
  */
 public class AddTwo {
 	public static void main(String[] args) {
-		// Put your code here	
+		addTwo(0, 100);
+	}
+	public static void addTwo(int one, int two){
+		int answer = one + two;
+		System.out.println(one + " + " + two + " = " + answer );
 	}
 }

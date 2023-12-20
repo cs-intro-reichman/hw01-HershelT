@@ -6,4 +6,12 @@
  */
 public class LinearEq {
 	// Put your code here
+    public static void main(String[] args) {
+        linearEq(4, 6, 7);
+    }
+    public static void linearEq(double a, double b, double c) {
+        String equation = String.format("%f*x + %f = %f",a,b,c);
+        double x = (c - b)/a;
+        System.out.println(equation+"\nx = "+x);
+    }
 }
