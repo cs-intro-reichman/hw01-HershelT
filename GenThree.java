@@ -4,6 +4,7 @@
  * prints them, and then prints the minimal number that was generated.
  */
 import java.util.Random;
+import java.util.*;
 public class GenThree {
     public static void main(String[] args) {
         // Put your code here
