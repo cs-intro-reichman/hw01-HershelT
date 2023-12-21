@@ -13,7 +13,8 @@ public class LinearEq {
         linearEq(a, b, c);
     }
     public static void linearEq(double a, double b, double c) {
-        String equation = String.format("%.1f * x + %.1f = %.1f",a,b,c);
+//        String equation = String.format("%.1f * x + %.1f = %.1f",a,b,c);
+        String equation = String.format(a + " * x + " + b + " = " + c);
         double x = (c - b)/a;
         System.out.println(equation+"\nx = "+x);
     }
